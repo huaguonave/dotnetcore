@@ -31,12 +31,8 @@ namespace dotnetcore
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-<<<<<<< HEAD
             // test branch comment
-=======
             //test
-           
->>>>>>> Json_web_token_auth
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
